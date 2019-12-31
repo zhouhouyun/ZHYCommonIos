@@ -90,14 +90,11 @@
 
 //如果没有使用Fast Forwarding来消息转发，最后只有使用Normal Forwarding来进行消息转发。它首先调用methodSignatureForSelector:方法来获取函数的参数和返回值，如果返回为nil，程序会 crash 掉，并抛出unrecognized selector sent to instance异常信息。如果返回一个函数签名，系统就会创建一个NSInvocation对象并调用-forwardInvocation:方法。
 
+//NullSafe原理
 //原文链接：https://blog.csdn.net/chenglei9128/article/details/78245382
 
 //后台返回 null的可能解决方案
 //https://www.jianshu.com/p/d56a22c23550
-
-//防止NSNull型崩溃
-//AFJSONResponseSerializer *response = [AFJSONResponseSerializer serializer];
-//response.removesKeysWithNullValues = YES;
 
 #endif
 
