@@ -9,10 +9,21 @@
 #ifndef ZHYCommon_h
 #define ZHYCommon_h
 
+#import "Macros.h"
+
+//Category
+#import "NSNumber+Zhy.h"
+#import "NSDictionary+Zhy.h"
+#import "NSArray+Zhy.h"
+
+//Tools
 #import "DateTools.h"
 #import "NumberTools.h"
 #import "CommonTools.h"
 
+//GlobalData
 #import "GlobalData.h"
+
+
 
 #endif /* ZHYCommon_h */

@@ -10,6 +10,7 @@
 
 #import "ZHYCommon.h"
 #import "NSNumber+Zhy.h"
+#import "Macros.h"
 
 @interface ViewController ()
 
@@ -28,20 +29,27 @@
     
     NSLog(@"字符串转换日期:%@",[DateTools getDate:@"2019-11-25 16:12:18" formatter:@"YYYY-MM-dd HH:mm:ss"]);
     
+    //测试 NullSafe
     id nullValue = [NSNull null];
     NSString *result = [nullValue stringValue];
-    NSLog(@"result===%@",result);
+    //result为nil
+    if(result == nil){
+        //
+        NSLog(@"1");
+    }
+    
+    result = @"";
+    NSLog(@"isEmpty==%D",IsEmpty(result));
     
     NSNumber *object = [NSNumber numberWithDouble:6.554999];
-    NSLog(@"number===%@",[object hy_reviseString]);
-    NSLog(@"number===%@",[object hy_formatterNumber]);
-    double conversionValue = (double)[object floatValue];
-
-    NSString *d2Str = [NSString stringWithFormat:@"%.3lf",conversionValue];
-
+    NSLog(@"hy_reviseString===%@",[object hy_reviseString]);
+    NSLog(@"hy_formatterNumber===%@",[object hy_formatterNumber]);
+    double conversionValue = (double)[object floatValue];
+    NSString *d2Str = [NSString stringWithFormat:@"%.3lf",conversionValue];
     NSDecimalNumber *num1 = [NSDecimalNumber decimalNumberWithString:d2Str];
-
-    NSString *strD2  = [num1 stringValue];
+    NSString *strD2 = [num1 stringValue];
+    
+    NSLog(@"str===%@",StringFromObject([NSDate date]));
 }
 
 

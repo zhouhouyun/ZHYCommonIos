@@ -34,6 +34,7 @@
 		D72D28A223BB1AB500DABBE4 /* NSDictionary+Zhy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Zhy.m"; sourceTree = "<group>"; };
 		D72D28A723BB1AF300DABBE4 /* NSArray+Zhy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Zhy.h"; sourceTree = "<group>"; };
 		D72D28A823BB1AF300DABBE4 /* NSArray+Zhy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Zhy.m"; sourceTree = "<group>"; };
+		D72D28AB23BB273400DABBE4 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
 		D73A75CF22841B1A00AE8A00 /* ZHYCommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHYCommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D73A75D222841B1A00AE8A00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D73A75D322841B1A00AE8A00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -85,16 +86,8 @@
 			children = (
 				D72D289C23BAF7A500DABBE4 /* Foundation */,
 				D72D289D23BAF7A500DABBE4 /* UIKit */,
-				D72D289B23BAF71700DABBE4 /* UIView */,
 			);
 			path = Category;
-			sourceTree = "<group>";
-		};
-		D72D289B23BAF71700DABBE4 /* UIView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UIView;
 			sourceTree = "<group>";
 		};
 		D72D289C23BAF7A500DABBE4 /* Foundation */ = {
@@ -115,6 +108,14 @@
 			children = (
 			);
 			path = UIKit;
+			sourceTree = "<group>";
+		};
+		D72D28AA23BB26E300DABBE4 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				D72D28AB23BB273400DABBE4 /* Macros.h */,
+			);
+			path = Macros;
 			sourceTree = "<group>";
 		};
 		D73A75C622841B1A00AE8A00 = {
@@ -154,6 +155,7 @@
 		D7656963238280B900C671F2 /* ZHYCommon */ = {
 			isa = PBXGroup;
 			children = (
+				D72D28AA23BB26E300DABBE4 /* Macros */,
 				D72D289A23BAF71700DABBE4 /* Category */,
 				D72D289723BAE58400DABBE4 /* NullSafe */,
 				D7DACCB4238BD85F00467747 /* Base */,
