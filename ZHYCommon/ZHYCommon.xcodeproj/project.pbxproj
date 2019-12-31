@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D72D289923BAE58400DABBE4 /* NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = D72D289823BAE58400DABBE4 /* NullSafe.m */; };
+		D72D28A023BAF82A00DABBE4 /* NSNumber+Zhy.m in Sources */ = {isa = PBXBuildFile; fileRef = D72D289F23BAF82A00DABBE4 /* NSNumber+Zhy.m */; };
+		D72D28A323BB1AB500DABBE4 /* NSDictionary+Zhy.m in Sources */ = {isa = PBXBuildFile; fileRef = D72D28A223BB1AB500DABBE4 /* NSDictionary+Zhy.m */; };
+		D72D28A923BB1AF300DABBE4 /* NSArray+Zhy.m in Sources */ = {isa = PBXBuildFile; fileRef = D72D28A823BB1AF300DABBE4 /* NSArray+Zhy.m */; };
 		D73A75D422841B1A00AE8A00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A75D322841B1A00AE8A00 /* AppDelegate.m */; };
 		D73A75D722841B1A00AE8A00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A75D622841B1A00AE8A00 /* ViewController.m */; };
 		D73A75DA22841B1A00AE8A00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D73A75D822841B1A00AE8A00 /* Main.storyboard */; };
@@ -23,6 +27,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D72D289823BAE58400DABBE4 /* NullSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NullSafe.m; sourceTree = "<group>"; };
+		D72D289E23BAF82A00DABBE4 /* NSNumber+Zhy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Zhy.h"; sourceTree = "<group>"; };
+		D72D289F23BAF82A00DABBE4 /* NSNumber+Zhy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Zhy.m"; sourceTree = "<group>"; };
+		D72D28A123BB1AB500DABBE4 /* NSDictionary+Zhy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Zhy.h"; sourceTree = "<group>"; };
+		D72D28A223BB1AB500DABBE4 /* NSDictionary+Zhy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Zhy.m"; sourceTree = "<group>"; };
+		D72D28A423BB1AC600DABBE4 /* NSArray+Zhy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Zhy.h"; sourceTree = "<group>"; };
+		D72D28A523BB1AC600DABBE4 /* NSArray+Zhy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Zhy.m"; sourceTree = "<group>"; };
+		D72D28A723BB1AF300DABBE4 /* NSArray+Zhy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Zhy.h"; sourceTree = "<group>"; };
+		D72D28A823BB1AF300DABBE4 /* NSArray+Zhy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Zhy.m"; sourceTree = "<group>"; };
 		D73A75CF22841B1A00AE8A00 /* ZHYCommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHYCommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D73A75D222841B1A00AE8A00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D73A75D322841B1A00AE8A00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,9 +74,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D72D289723BAE58400DABBE4 /* NullSafe */ = {
+			isa = PBXGroup;
+			children = (
+				D72D289823BAE58400DABBE4 /* NullSafe.m */,
+			);
+			path = NullSafe;
+			sourceTree = "<group>";
+		};
+		D72D289A23BAF71700DABBE4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D72D289C23BAF7A500DABBE4 /* Foundation */,
+				D72D289D23BAF7A500DABBE4 /* UIKit */,
+				D72D289B23BAF71700DABBE4 /* UIView */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D72D289B23BAF71700DABBE4 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		D72D289C23BAF7A500DABBE4 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				D72D289E23BAF82A00DABBE4 /* NSNumber+Zhy.h */,
+				D72D289F23BAF82A00DABBE4 /* NSNumber+Zhy.m */,
+				D72D28A123BB1AB500DABBE4 /* NSDictionary+Zhy.h */,
+				D72D28A223BB1AB500DABBE4 /* NSDictionary+Zhy.m */,
+				D72D28A723BB1AF300DABBE4 /* NSArray+Zhy.h */,
+				D72D28A823BB1AF300DABBE4 /* NSArray+Zhy.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		D72D289D23BAF7A500DABBE4 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
 		D73A75C622841B1A00AE8A00 = {
 			isa = PBXGroup;
 			children = (
+				D72D28A423BB1AC600DABBE4 /* NSArray+Zhy.h */,
+				D72D28A523BB1AC600DABBE4 /* NSArray+Zhy.m */,
 				D73A75D122841B1A00AE8A00 /* ZHYCommon */,
 				D73A75D022841B1A00AE8A00 /* Products */,
 			);
@@ -81,7 +141,6 @@
 			isa = PBXGroup;
 			children = (
 				D7656963238280B900C671F2 /* ZHYCommon */,
-				D77FB55922BC78AB0055E0F0 /* Category */,
 				D73A75D222841B1A00AE8A00 /* AppDelegate.h */,
 				D73A75D322841B1A00AE8A00 /* AppDelegate.m */,
 				D73A75D522841B1A00AE8A00 /* ViewController.h */,
@@ -99,6 +158,8 @@
 		D7656963238280B900C671F2 /* ZHYCommon */ = {
 			isa = PBXGroup;
 			children = (
+				D72D289A23BAF71700DABBE4 /* Category */,
+				D72D289723BAE58400DABBE4 /* NullSafe */,
 				D7DACCB4238BD85F00467747 /* Base */,
 				D7656969238290F900C671F2 /* GlobalData */,
 				D7656964238280D300C671F2 /* Tools */,
@@ -128,21 +189,6 @@
 				D765696B2382914800C671F2 /* GlobalData.m */,
 			);
 			path = GlobalData;
-			sourceTree = "<group>";
-		};
-		D77FB55922BC78AB0055E0F0 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				D77FB55A22BC78C00055E0F0 /* UIView */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		D77FB55A22BC78C00055E0F0 /* UIView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UIView;
 			sourceTree = "<group>";
 		};
 		D7DACCB4238BD85F00467747 /* Base */ = {
@@ -243,14 +289,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72D28A923BB1AF300DABBE4 /* NSArray+Zhy.m in Sources */,
 				D73A75D722841B1A00AE8A00 /* ViewController.m in Sources */,
+				D72D28A023BAF82A00DABBE4 /* NSNumber+Zhy.m in Sources */,
 				D76569672382818600C671F2 /* DateTools.m in Sources */,
 				D7DACCAF238BAA1800467747 /* NumberTools.m in Sources */,
 				D73C7B96239E2B4700DCF505 /* ZHYNavigationController.m in Sources */,
 				D774309423B600D6002D381E /* CommonTools.m in Sources */,
 				D73A75E222841B1C00AE8A00 /* main.m in Sources */,
 				D73C7B8A239B88E500DCF505 /* ZHYViewController.m in Sources */,
+				D72D289923BAE58400DABBE4 /* NullSafe.m in Sources */,
 				D765696C2382914800C671F2 /* GlobalData.m in Sources */,
+				D72D28A323BB1AB500DABBE4 /* NSDictionary+Zhy.m in Sources */,
 				D73A75D422841B1A00AE8A00 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

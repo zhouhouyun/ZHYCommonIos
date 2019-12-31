@@ -19,6 +19,9 @@ NS_ASSUME_NONNULL_BEGIN
 //jsonObject:从https://itunes.apple.com/cn/lookup?id=1480635577获取到的json格式
 +(UIAlertController *)alertUpdateInformation:(NSDictionary *)jsonObject;
 
+
+
+
 @end
 
 NS_ASSUME_NONNULL_END
