@@ -32,8 +32,6 @@
 		D72D289F23BAF82A00DABBE4 /* NSNumber+Zhy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Zhy.m"; sourceTree = "<group>"; };
 		D72D28A123BB1AB500DABBE4 /* NSDictionary+Zhy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Zhy.h"; sourceTree = "<group>"; };
 		D72D28A223BB1AB500DABBE4 /* NSDictionary+Zhy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Zhy.m"; sourceTree = "<group>"; };
-		D72D28A423BB1AC600DABBE4 /* NSArray+Zhy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Zhy.h"; sourceTree = "<group>"; };
-		D72D28A523BB1AC600DABBE4 /* NSArray+Zhy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Zhy.m"; sourceTree = "<group>"; };
 		D72D28A723BB1AF300DABBE4 /* NSArray+Zhy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Zhy.h"; sourceTree = "<group>"; };
 		D72D28A823BB1AF300DABBE4 /* NSArray+Zhy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Zhy.m"; sourceTree = "<group>"; };
 		D73A75CF22841B1A00AE8A00 /* ZHYCommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHYCommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,8 +120,6 @@
 		D73A75C622841B1A00AE8A00 = {
 			isa = PBXGroup;
 			children = (
-				D72D28A423BB1AC600DABBE4 /* NSArray+Zhy.h */,
-				D72D28A523BB1AC600DABBE4 /* NSArray+Zhy.m */,
 				D73A75D122841B1A00AE8A00 /* ZHYCommon */,
 				D73A75D022841B1A00AE8A00 /* Products */,
 			);
