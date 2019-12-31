@@ -13,11 +13,11 @@
 @implementation NSDictionary (Zhy)
 
 //在封装的网络请求获取到后台数据的地方 将数据处理一下
-//NSDictionary *dict = [responseObject dictionaryByReplacingNulls];
+//NSDictionary *dict = [responseObject hy_dictionaryByReplacingNulls];
 //success(dict);
 
 //过滤 null
-- (NSDictionary *)dictionaryByReplacingNulls {
+- (NSDictionary *)hy_dictionaryByReplacingNulls {
     const NSMutableDictionary *replaced = [self mutableCopy];
     const id nul = [NSNull null];
     
@@ -27,9 +27,9 @@
         if (object == nul)
             [replaced removeObjectForKey:key];
         else if ([object isKindOfClass:[NSDictionary class]])
-            [replaced setObject:[object dictionaryByReplacingNulls] forKey:key];
+            [replaced setObject:[object hy_dictionaryByReplacingNulls] forKey:key];
         else if ([object isKindOfClass:[NSArray class]])
-            [replaced setObject:[object arrayByReplacingNulls] forKey:key];
+            [replaced setObject:[object hy_arrayByReplacingNulls] forKey:key];
         
         if([object isKindOfClass:[NSNumber class]])
         {

@@ -53,7 +53,7 @@
     
     NSLog(@"str===%@",StringFromObject([NSDate date]));
     
-    
+    //测试按钮点击间隔
     UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
     button.backgroundColor = [UIColor lightGrayColor];
     button.frame = CGRectMake(30.0, self.view.bounds.size.height / 2, self.view.bounds.size.width - 30.0 * 2, 50.0);

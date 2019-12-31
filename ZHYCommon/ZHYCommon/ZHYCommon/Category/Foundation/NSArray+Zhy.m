@@ -13,7 +13,7 @@
 @implementation NSArray (Zhy)
 
 //过滤 null
-- (NSArray *)arrayByReplacingNulls  {
+- (NSArray *)hy_arrayByReplacingNulls  {
     NSMutableArray *replaced = [self mutableCopy];
     const id nul = [NSNull null];
 
@@ -23,9 +23,9 @@
         if (object == nul)
             [replaced removeObjectAtIndex:idx];
         else if ([object isKindOfClass:[NSDictionary class]])
-            [replaced replaceObjectAtIndex:idx withObject:[object dictionaryByReplacingNulls]];
+            [replaced replaceObjectAtIndex:idx withObject:[object hy_dictionaryByReplacingNulls]];
         else if ([object isKindOfClass:[NSArray class]])
-            [replaced replaceObjectAtIndex:idx withObject:[object arrayByReplacingNulls]];
+            [replaced replaceObjectAtIndex:idx withObject:[object hy_arrayByReplacingNulls]];
     }
 
     return [replaced copy];

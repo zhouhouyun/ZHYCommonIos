@@ -22,6 +22,8 @@
 		D76569672382818600C671F2 /* DateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D76569662382818600C671F2 /* DateTools.m */; };
 		D765696C2382914800C671F2 /* GlobalData.m in Sources */ = {isa = PBXBuildFile; fileRef = D765696B2382914800C671F2 /* GlobalData.m */; };
 		D774309423B600D6002D381E /* CommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D774309323B600D6002D381E /* CommonTools.m */; };
+		D774ACD623BB9C3000351928 /* UITableViewCell+Zhy.m in Sources */ = {isa = PBXBuildFile; fileRef = D774ACD523BB9C3000351928 /* UITableViewCell+Zhy.m */; };
+		D774ACDA23BB9CF400351928 /* UITableView+Zhy.m in Sources */ = {isa = PBXBuildFile; fileRef = D774ACD923BB9CF400351928 /* UITableView+Zhy.m */; };
 		D77FB55C22BC7E940055E0F0 /* readMe in Resources */ = {isa = PBXBuildFile; fileRef = D77FB55B22BC7E940055E0F0 /* readMe */; };
 		D7AA995F23BB477D002FA911 /* UIButton+EventInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AA995E23BB477D002FA911 /* UIButton+EventInterval.m */; };
 		D7DACCAF238BAA1800467747 /* NumberTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DACCAE238BAA1800467747 /* NumberTools.m */; };
@@ -58,6 +60,10 @@
 		D76F9594238E5FE400BF43DA /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		D774309223B600D6002D381E /* CommonTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonTools.h; sourceTree = "<group>"; };
 		D774309323B600D6002D381E /* CommonTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonTools.m; sourceTree = "<group>"; };
+		D774ACD423BB9C3000351928 /* UITableViewCell+Zhy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+Zhy.h"; sourceTree = "<group>"; };
+		D774ACD523BB9C3000351928 /* UITableViewCell+Zhy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+Zhy.m"; sourceTree = "<group>"; };
+		D774ACD823BB9CF400351928 /* UITableView+Zhy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+Zhy.h"; sourceTree = "<group>"; };
+		D774ACD923BB9CF400351928 /* UITableView+Zhy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Zhy.m"; sourceTree = "<group>"; };
 		D77FB55B22BC7E940055E0F0 /* readMe */ = {isa = PBXFileReference; lastKnownFileType = text; path = readMe; sourceTree = "<group>"; };
 		D7AA995D23BB477D002FA911 /* UIButton+EventInterval.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+EventInterval.h"; sourceTree = "<group>"; };
 		D7AA995E23BB477D002FA911 /* UIButton+EventInterval.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EventInterval.m"; sourceTree = "<group>"; };
@@ -109,6 +115,8 @@
 		D72D289D23BAF7A500DABBE4 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				D774ACD723BB9CD600351928 /* UITableView */,
+				D774ACD323BB9C1000351928 /* UITableViewCell */,
 				D7AA995C23BB474B002FA911 /* UIButton */,
 			);
 			path = UIKit;
@@ -191,6 +199,24 @@
 				D765696B2382914800C671F2 /* GlobalData.m */,
 			);
 			path = GlobalData;
+			sourceTree = "<group>";
+		};
+		D774ACD323BB9C1000351928 /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				D774ACD423BB9C3000351928 /* UITableViewCell+Zhy.h */,
+				D774ACD523BB9C3000351928 /* UITableViewCell+Zhy.m */,
+			);
+			path = UITableViewCell;
+			sourceTree = "<group>";
+		};
+		D774ACD723BB9CD600351928 /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				D774ACD823BB9CF400351928 /* UITableView+Zhy.h */,
+				D774ACD923BB9CF400351928 /* UITableView+Zhy.m */,
+			);
+			path = UITableView;
 			sourceTree = "<group>";
 		};
 		D7AA995C23BB474B002FA911 /* UIButton */ = {
@@ -300,8 +326,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D774ACD623BB9C3000351928 /* UITableViewCell+Zhy.m in Sources */,
 				D72D28A923BB1AF300DABBE4 /* NSArray+Zhy.m in Sources */,
 				D73A75D722841B1A00AE8A00 /* ViewController.m in Sources */,
+				D774ACDA23BB9CF400351928 /* UITableView+Zhy.m in Sources */,
 				D72D28A023BAF82A00DABBE4 /* NSNumber+Zhy.m in Sources */,
 				D76569672382818600C671F2 /* DateTools.m in Sources */,
 				D7DACCAF238BAA1800467747 /* NumberTools.m in Sources */,

@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSDictionary (Zhy)
 
-- (NSDictionary *)dictionaryByReplacingNulls;
+- (NSDictionary *)hy_dictionaryByReplacingNulls;
 
 @end
 
