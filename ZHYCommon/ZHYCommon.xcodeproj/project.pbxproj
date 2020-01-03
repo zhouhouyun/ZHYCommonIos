@@ -21,6 +21,7 @@
 		D73C7B96239E2B4700DCF505 /* ZHYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73C7B95239E2B4700DCF505 /* ZHYNavigationController.m */; };
 		D76569672382818600C671F2 /* DateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D76569662382818600C671F2 /* DateTools.m */; };
 		D765696C2382914800C671F2 /* GlobalData.m in Sources */ = {isa = PBXBuildFile; fileRef = D765696B2382914800C671F2 /* GlobalData.m */; };
+		D773956823BEEB9900CB2744 /* UIButton+YasinTimerCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D773956723BEEB9900CB2744 /* UIButton+YasinTimerCategory.m */; };
 		D774309423B600D6002D381E /* CommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D774309323B600D6002D381E /* CommonTools.m */; };
 		D774ACD623BB9C3000351928 /* UITableViewCell+Zhy.m in Sources */ = {isa = PBXBuildFile; fileRef = D774ACD523BB9C3000351928 /* UITableViewCell+Zhy.m */; };
 		D774ACDA23BB9CF400351928 /* UITableView+Zhy.m in Sources */ = {isa = PBXBuildFile; fileRef = D774ACD923BB9CF400351928 /* UITableView+Zhy.m */; };
@@ -290,6 +291,8 @@
 		D765696A2382914800C671F2 /* GlobalData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalData.h; sourceTree = "<group>"; };
 		D765696B2382914800C671F2 /* GlobalData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlobalData.m; sourceTree = "<group>"; };
 		D76F9594238E5FE400BF43DA /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		D773956623BEEB9800CB2744 /* UIButton+YasinTimerCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+YasinTimerCategory.h"; sourceTree = "<group>"; };
+		D773956723BEEB9900CB2744 /* UIButton+YasinTimerCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+YasinTimerCategory.m"; sourceTree = "<group>"; };
 		D774309223B600D6002D381E /* CommonTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonTools.h; sourceTree = "<group>"; };
 		D774309323B600D6002D381E /* CommonTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonTools.m; sourceTree = "<group>"; };
 		D774ACD423BB9C3000351928 /* UITableViewCell+Zhy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+Zhy.h"; sourceTree = "<group>"; };
@@ -2036,6 +2039,8 @@
 				D798F59323BCBACE001793AD /* UIButton+Category.m */,
 				D7AA995D23BB477D002FA911 /* UIButton+EventInterval.h */,
 				D7AA995E23BB477D002FA911 /* UIButton+EventInterval.m */,
+				D773956623BEEB9800CB2744 /* UIButton+YasinTimerCategory.h */,
+				D773956723BEEB9900CB2744 /* UIButton+YasinTimerCategory.m */,
 			);
 			path = UIButton;
 			sourceTree = "<group>";
@@ -2307,6 +2312,7 @@
 				D798F49523BCB822001793AD /* NSObject+JKBlockTimer.m in Sources */,
 				D798F46323BCB821001793AD /* NSFileHandle+JKReadLine.m in Sources */,
 				D798F49023BCB822001793AD /* NSTimer+JKBlocks.m in Sources */,
+				D773956823BEEB9900CB2744 /* UIButton+YasinTimerCategory.m in Sources */,
 				D798F47623BCB822001793AD /* NSString+JKMatcher.m in Sources */,
 				D798F43123BCB821001793AD /* UITextView+JKPinchZoom.m in Sources */,
 				D798F48A23BCB822001793AD /* NSDecimalNumber+JKExtensions.m in Sources */,
