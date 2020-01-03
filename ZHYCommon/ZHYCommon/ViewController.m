@@ -25,9 +25,9 @@
     
     NSLog(@"现在时间:%@",[DateTools nowSecTimeStamp]);
     
-    NSLog(@"时间距离:%@",[DateTools timeDistance:@(1574552059)]);
+    ZHYLog(@"时间距离:%@",[DateTools timeDistance:@(1574552059)]);
     
-    NSLog(@"日期转换字符串:%@",[DateTools getDateString:[NSDate date] formatter:@"YYYY-MM-dd HH:mm:ss"]);
+    LOG(@"日期转换字符串:%@",[DateTools getDateString:[NSDate date] formatter:@"YYYY-MM-dd HH:mm:ss"]);
     
     NSLog(@"字符串转换日期:%@",[DateTools getDate:@"2019-11-25 16:12:18" formatter:@"YYYY-MM-dd HH:mm:ss"]);
     
@@ -40,11 +40,11 @@
     //result为nil
     if(result == nil){
         //
-        NSLog(@"1");
+        LOG(@"1");
     }
     
     result = @"";
-    NSLog(@"isEmpty==%D",IsEmpty(result));
+    LOG(@"isEmpty==%D",IsEmpty(result));
     
     NSNumber *object = [NSNumber numberWithDouble:6.554999];
     NSLog(@"hy_reviseString===%@",[object hy_reviseString]);

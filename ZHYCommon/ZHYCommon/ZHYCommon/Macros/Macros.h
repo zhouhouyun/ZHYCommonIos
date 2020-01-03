@@ -83,13 +83,14 @@ static inline NSDictionary *DictionaryWithIDArray(id *array, NSUInteger count) {
 #pragma mark -
 #pragma mark Logging
 
-#define LOG(fmt, ...) NSLog(@"%s: " fmt, __PRETTY_FUNCTION__, ## __VA_ARGS__)
+// [类 方法]-行数
+#define LOG(fmt, ...) NSLog(@"%s-%d行 " fmt, __PRETTY_FUNCTION__,__LINE__, ## __VA_ARGS__)
 
 #ifdef DEBUG
-    #define INFO(fmt, ...) LOG(fmt, ## __VA_ARGS__)
+    #define ZHYLog(fmt, ...) LOG(fmt, ## __VA_ARGS__)
 #else
     // do nothing
-    #define INFO(fmt, ...) 
+    #define ZHYLog(fmt, ...)
 #endif
 
 #define ERROR(fmt, ...) LOG(fmt, ## __VA_ARGS__)

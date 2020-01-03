@@ -22,6 +22,14 @@
 		D76569672382818600C671F2 /* DateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D76569662382818600C671F2 /* DateTools.m */; };
 		D765696C2382914800C671F2 /* GlobalData.m in Sources */ = {isa = PBXBuildFile; fileRef = D765696B2382914800C671F2 /* GlobalData.m */; };
 		D773956823BEEB9900CB2744 /* UIButton+YasinTimerCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D773956723BEEB9900CB2744 /* UIButton+YasinTimerCategory.m */; };
+		D773957E23BF3BBA00CB2744 /* NSMutableArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = D773956E23BF3BBA00CB2744 /* NSMutableArray+Safe.m */; };
+		D773957F23BF3BBA00CB2744 /* NSString+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = D773956F23BF3BBA00CB2744 /* NSString+Safe.m */; };
+		D773958023BF3BBA00CB2744 /* NSMutableDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = D773957223BF3BBA00CB2744 /* NSMutableDictionary+Safe.m */; };
+		D773958123BF3BBA00CB2744 /* NSMutableString+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = D773957823BF3BBA00CB2744 /* NSMutableString+Safe.m */; };
+		D773958223BF3BBA00CB2744 /* NSDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = D773957A23BF3BBA00CB2744 /* NSDictionary+Safe.m */; };
+		D773958323BF3BBA00CB2744 /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = D773957B23BF3BBA00CB2744 /* NSObject+Swizzling.m */; };
+		D773958423BF3BBA00CB2744 /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = D773957C23BF3BBA00CB2744 /* NSArray+Safe.m */; };
+		D773958523BF3BBA00CB2744 /* NSObject+ImpChangeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D773957D23BF3BBA00CB2744 /* NSObject+ImpChangeTool.m */; };
 		D774309423B600D6002D381E /* CommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D774309323B600D6002D381E /* CommonTools.m */; };
 		D774ACD623BB9C3000351928 /* UITableViewCell+Zhy.m in Sources */ = {isa = PBXBuildFile; fileRef = D774ACD523BB9C3000351928 /* UITableViewCell+Zhy.m */; };
 		D774ACDA23BB9CF400351928 /* UITableView+Zhy.m in Sources */ = {isa = PBXBuildFile; fileRef = D774ACD923BB9CF400351928 /* UITableView+Zhy.m */; };
@@ -293,6 +301,23 @@
 		D76F9594238E5FE400BF43DA /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		D773956623BEEB9800CB2744 /* UIButton+YasinTimerCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+YasinTimerCategory.h"; sourceTree = "<group>"; };
 		D773956723BEEB9900CB2744 /* UIButton+YasinTimerCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+YasinTimerCategory.m"; sourceTree = "<group>"; };
+		D773956D23BF3BBA00CB2744 /* NSMutableString+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+Safe.h"; sourceTree = "<group>"; };
+		D773956E23BF3BBA00CB2744 /* NSMutableArray+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Safe.m"; sourceTree = "<group>"; };
+		D773956F23BF3BBA00CB2744 /* NSString+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Safe.m"; sourceTree = "<group>"; };
+		D773957023BF3BBA00CB2744 /* NSDictionary+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Safe.h"; sourceTree = "<group>"; };
+		D773957123BF3BBA00CB2744 /* SafeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeObject.h; sourceTree = "<group>"; };
+		D773957223BF3BBA00CB2744 /* NSMutableDictionary+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Safe.m"; sourceTree = "<group>"; };
+		D773957323BF3BBA00CB2744 /* NSObject+ImpChangeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ImpChangeTool.h"; sourceTree = "<group>"; };
+		D773957423BF3BBA00CB2744 /* NSArray+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Safe.h"; sourceTree = "<group>"; };
+		D773957523BF3BBA00CB2744 /* NSObject+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzling.h"; sourceTree = "<group>"; };
+		D773957623BF3BBA00CB2744 /* NSString+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Safe.h"; sourceTree = "<group>"; };
+		D773957723BF3BBA00CB2744 /* NSMutableArray+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Safe.h"; sourceTree = "<group>"; };
+		D773957823BF3BBA00CB2744 /* NSMutableString+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+Safe.m"; sourceTree = "<group>"; };
+		D773957923BF3BBA00CB2744 /* NSMutableDictionary+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Safe.h"; sourceTree = "<group>"; };
+		D773957A23BF3BBA00CB2744 /* NSDictionary+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Safe.m"; sourceTree = "<group>"; };
+		D773957B23BF3BBA00CB2744 /* NSObject+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzling.m"; sourceTree = "<group>"; };
+		D773957C23BF3BBA00CB2744 /* NSArray+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Safe.m"; sourceTree = "<group>"; };
+		D773957D23BF3BBA00CB2744 /* NSObject+ImpChangeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ImpChangeTool.m"; sourceTree = "<group>"; };
 		D774309223B600D6002D381E /* CommonTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonTools.h; sourceTree = "<group>"; };
 		D774309323B600D6002D381E /* CommonTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonTools.m; sourceTree = "<group>"; };
 		D774ACD423BB9C3000351928 /* UITableViewCell+Zhy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+Zhy.h"; sourceTree = "<group>"; };
@@ -798,6 +823,7 @@
 		D72D289A23BAF71700DABBE4 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				D773956C23BF3BBA00CB2744 /* SafeObject */,
 				D72D289C23BAF7A500DABBE4 /* Foundation */,
 				D72D289D23BAF7A500DABBE4 /* UIKit */,
 			);
@@ -915,6 +941,30 @@
 				D765696B2382914800C671F2 /* GlobalData.m */,
 			);
 			path = GlobalData;
+			sourceTree = "<group>";
+		};
+		D773956C23BF3BBA00CB2744 /* SafeObject */ = {
+			isa = PBXGroup;
+			children = (
+				D773957123BF3BBA00CB2744 /* SafeObject.h */,
+				D773956D23BF3BBA00CB2744 /* NSMutableString+Safe.h */,
+				D773956E23BF3BBA00CB2744 /* NSMutableArray+Safe.m */,
+				D773957923BF3BBA00CB2744 /* NSMutableDictionary+Safe.h */,
+				D773957223BF3BBA00CB2744 /* NSMutableDictionary+Safe.m */,
+				D773957323BF3BBA00CB2744 /* NSObject+ImpChangeTool.h */,
+				D773957D23BF3BBA00CB2744 /* NSObject+ImpChangeTool.m */,
+				D773957423BF3BBA00CB2744 /* NSArray+Safe.h */,
+				D773957C23BF3BBA00CB2744 /* NSArray+Safe.m */,
+				D773957523BF3BBA00CB2744 /* NSObject+Swizzling.h */,
+				D773957B23BF3BBA00CB2744 /* NSObject+Swizzling.m */,
+				D773957623BF3BBA00CB2744 /* NSString+Safe.h */,
+				D773956F23BF3BBA00CB2744 /* NSString+Safe.m */,
+				D773957723BF3BBA00CB2744 /* NSMutableArray+Safe.h */,
+				D773957823BF3BBA00CB2744 /* NSMutableString+Safe.m */,
+				D773957023BF3BBA00CB2744 /* NSDictionary+Safe.h */,
+				D773957A23BF3BBA00CB2744 /* NSDictionary+Safe.m */,
+			);
+			path = SafeObject;
 			sourceTree = "<group>";
 		};
 		D774ACD323BB9C1000351928 /* UITableViewCell */ = {
@@ -2176,6 +2226,7 @@
 				D798F40723BCB821001793AD /* UIButton+JKIndicator.m in Sources */,
 				D798F49E23BCB822001793AD /* NSRunLoop+JKPerformBlock.m in Sources */,
 				D798F43023BCB821001793AD /* UITextView+JKSelect.m in Sources */,
+				D773958023BF3BBA00CB2744 /* NSMutableDictionary+Safe.m in Sources */,
 				D798F48B23BCB822001793AD /* NSNumber+JKRound.m in Sources */,
 				D798F44923BCB821001793AD /* UINavigationController+JKTransitions.m in Sources */,
 				D798F44023BCB821001793AD /* UIImageView+JKAddition.m in Sources */,
@@ -2183,9 +2234,11 @@
 				D774ACDA23BB9CF400351928 /* UITableView+Zhy.m in Sources */,
 				D798F45423BCB821001793AD /* UITextField+JKSelect.m in Sources */,
 				D798F47823BCB822001793AD /* NSString+JKSize.m in Sources */,
+				D773958223BF3BBA00CB2744 /* NSDictionary+Safe.m in Sources */,
 				D798F41723BCB821001793AD /* UIWebView+JKWebStorage.m in Sources */,
 				D798F3F523BCB821001793AD /* UIImage+JKSuperCompress.m in Sources */,
 				D798F3EA23BCB821001793AD /* UIImage+JKVector.m in Sources */,
+				D773957F23BF3BBA00CB2744 /* NSString+Safe.m in Sources */,
 				D798F49123BCB822001793AD /* NSSet+JKBlock.m in Sources */,
 				D798F49C23BCB822001793AD /* NSObject+JKRuntime.m in Sources */,
 				D798F47123BCB822001793AD /* NSString+JKStringPages.m in Sources */,
@@ -2230,6 +2283,7 @@
 				D798F40D23BCB821001793AD /* UIButton+JKTouchAreaInsets.m in Sources */,
 				D798F57C23BCBA29001793AD /* NSObject+Swizzle.m in Sources */,
 				D798F42623BCB821001793AD /* UIView+JKVisuals.m in Sources */,
+				D773958323BF3BBA00CB2744 /* NSObject+Swizzling.m in Sources */,
 				D798F47723BCB822001793AD /* NSString+JKMIME.m in Sources */,
 				D798F44E23BCB821001793AD /* UIControl+JKSound.m in Sources */,
 				D798F55B23BCB993001793AD /* NSString+DisplayTime.m in Sources */,
@@ -2239,6 +2293,7 @@
 				D798F3F423BCB821001793AD /* UIImage+JKRoundedCorner.m in Sources */,
 				D798F4BA23BCB8D3001793AD /* UITableView+CellAnimation.m in Sources */,
 				D798F57123BCB9E2001793AD /* NSMutableArray+Safe.m in Sources */,
+				D773957E23BF3BBA00CB2744 /* NSMutableArray+Safe.m in Sources */,
 				D798F4A723BCB822001793AD /* NSManagedObject+JKExtensions.m in Sources */,
 				D798F3F623BCB821001793AD /* UIImage+JKFileName.m in Sources */,
 				D798F48623BCB822001793AD /* NSMutableURLRequest+JKUpload.m in Sources */,
@@ -2326,6 +2381,7 @@
 				D798F4AE23BCB822001793AD /* MKMapView+JKMoveLogo.m in Sources */,
 				D798F48723BCB822001793AD /* NSURLRequest+JKParamsFromDictionary.m in Sources */,
 				D798F3FC23BCB821001793AD /* UIScrollView+JKPages.m in Sources */,
+				D773958123BF3BBA00CB2744 /* NSMutableString+Safe.m in Sources */,
 				D798F46E23BCB822001793AD /* NSIndexPath+JKOffset.m in Sources */,
 				D798F47B23BCB822001793AD /* NSString+JKContains.m in Sources */,
 				D798F44523BCB821001793AD /* UIViewController+JKRecursiveDescription.m in Sources */,
@@ -2362,6 +2418,7 @@
 				D798F42723BCB821001793AD /* UIView+JKDraggable.m in Sources */,
 				D798F47C23BCB822001793AD /* NSString+JKRemoveEmoji.m in Sources */,
 				D798F58923BCBA9E001793AD /* UIImage+Category.m in Sources */,
+				D773958523BF3BBA00CB2744 /* NSObject+ImpChangeTool.m in Sources */,
 				D798F41523BCB821001793AD /* UIWebView+JKJavaScript.m in Sources */,
 				D798F42923BCB821001793AD /* UIView+JKRecursion.m in Sources */,
 				D798F3F823BCB821001793AD /* UILabel+JKAutomaticWriting.m in Sources */,
@@ -2389,6 +2446,7 @@
 				D798F4B423BCB822001793AD /* CAShapeLayer+JKUIBezierPath.m in Sources */,
 				D798F45623BCB821001793AD /* NSDictionary+JKSafeAccess.m in Sources */,
 				D798F4A323BCB822001793AD /* NSDate+JKUtilities.m in Sources */,
+				D773958423BF3BBA00CB2744 /* NSArray+Safe.m in Sources */,
 				D798F48823BCB822001793AD /* NSUserDefaults+JKiCloudSync.m in Sources */,
 				D798F3FF23BCB821001793AD /* UIApplication+JKNetworkActivityIndicator.m in Sources */,
 				D798F48123BCB822001793AD /* NSString+JKXMLDictionary.m in Sources */,

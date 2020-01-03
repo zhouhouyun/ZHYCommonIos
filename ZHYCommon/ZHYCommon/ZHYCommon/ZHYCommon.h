@@ -11,6 +11,8 @@
 
 #import "Macros.h"
 
+#import "SafeObject.h"
+
 //Category
 #import "NSNumber+Zhy.h"
 #import "NSDictionary+Zhy.h"
