@@ -169,3 +169,12 @@ static inline void TimeThisBlock (void (^block)(void), NSString *message) {
     LOG(@"Took %f seconds to %@", (CGFloat)nanos / NSEC_PER_SEC, message);
 }
 
+// G-C-D
+// 主线程
+#define kMain_GCD(block) dispatch_async(dispatch_get_main_queue(),block)
+
+// 子线程
+#define kBack_GCD(block) dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), block)
+
+// 延时
+#define kAfter_GCD(a, block) dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(a* NSEC_PER_SEC)), dispatch_get_main_queue(), block)

@@ -33,7 +33,10 @@
     
     //测试 NullSafe
     id nullValue = [NSNull null];
-    NSString *result = [nullValue stringValue];
+    NSNumber *nullValue0;
+    
+    // 为null 或者 nil 不会调用分类方法
+    NSString *result = [nullValue0 hy_reviseString];
     //result为nil
     if(result == nil){
         //
@@ -63,6 +66,11 @@
     
     //! 设置按钮的点击响应间隔时间
     button.hy_eventInterval = 1.0;
+    
+    
+    NSString *te = nil;
+    NSDictionary *testDic = [NSDictionary dictionaryWithObjectsAndKeys:te,@"xxx", nil];
+    NSString *cc = [testDic objectForKey:@"xxx"];
 }
 
 
